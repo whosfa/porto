@@ -197,3 +197,9 @@ h5 {
   border-radius: 10px;
   overflow: hidden; /* Agar konten yang terlalu besar tersembunyi */
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container-fluid {
+    font-size:500vw;
+  }
+}
